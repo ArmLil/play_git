@@ -22,4 +22,13 @@ this directory is to learn git
 
   now there are 2 commits in remote repo
 
-    
+  If we want to remove any remote commit
+
+  $git rebase -i <ssh>
+  there will be messages, you can change the word
+  pick with the word drop where you want, and
+  those commits will be removed from the LOCAL
+  history, we need to do
+  $git push -f
+  and that will rewrite the remote history
+  whith the local one
