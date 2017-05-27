@@ -14,7 +14,8 @@ this directory is to learn git
    $git status
     your file is red
    $git checkout -- <file>
-    this returns the previous status
+    this returns the previous status and delete
+    the changes in <work_file>
 6. do meaningless changes with your file
   $git add <file_name>
   $git commit <file_name> -m '<message'
@@ -32,3 +33,6 @@ this directory is to learn git
   $git push -f
   and that will rewrite the remote history
   whith the local one
+7. $ git reset <file>
+   this make added file to modified without changing
+   <work_file> 
