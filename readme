@@ -32,7 +32,13 @@ this directory is to learn git
   history, we need to do
   $git push -f
   and that will rewrite the remote history
-  whith the local one
+  with the local one
 7. $ git reset <file>
-   this make added file to modified without changing
-   <work_file> 
+   this makes added file to modified without changing
+   <work_file>
+8. $git rebase -i HEAD~3
+   gives a chance to change the last 3 commits
+9. $git commit --amend
+   gives a chance to change the last commit message
+10. $git rebase --abort
+    cancel the rebase
