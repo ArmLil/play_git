@@ -1,6 +1,6 @@
 this directory is to learn git
 
-1. create directory in you git account
+1. create directory in your git account
 2. in terminal type
    $git init
    $git clone <url>
@@ -26,10 +26,10 @@ this directory is to learn git
   If we want to remove any remote commit
 
   $git rebase -i <ssh>
-  there will be messages, you can change the word
-  pick with the word drop where you want, and
+  there are messages, you can change the word
+  'pick' with the word drop where you want, and
   those commits will be removed from the LOCAL
-  history, we need to do
+  history,then we need to do
   $git push -f
   and that will rewrite the remote history
   with the local one
