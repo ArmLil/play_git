@@ -1,6 +1,6 @@
 this directory is to learn git
 
-1. create directory in your git account
+1. let's create directory in your git account
 2. in terminal type
    $git init
    $git clone <url>
@@ -8,15 +8,15 @@ this directory is to learn git
 4. $git add <file_name>
    $git commit <file_name> -m '<message'
    $git push
-   your profile name
-   your password of github
+    my profile name
+   my password of github
 5. do some changes in your file
    $git status
-    your file is red
+    if my file is red
    $git checkout -- <file>
     this returns the previous status and delete
     the changes in <work_file>
-6. do meaningless changes with your file
+6. do meaningless changes with my file
   $git add <file_name>
   $git commit <file_name> -m '<message'
   $git push
@@ -26,7 +26,7 @@ this directory is to learn git
   If we want to remove any remote commit
 
   $git rebase -i <ssh>
-  there are messages, you can change the word
+  there are messages, we can change the word
   'pick' with the word drop where you want, and
   those commits will be removed from the LOCAL
   history,then we need to do
@@ -42,3 +42,5 @@ this directory is to learn git
    gives a chance to change the last commit message
 10. $git rebase --abort
     cancel the rebase
+11. if we deleted some local files we can get back them
+    $ git checkout -f HEAD
