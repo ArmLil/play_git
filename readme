@@ -1,5 +1,5 @@
 this directory is to learn git
-
+0.prettier --single-quote --jsx-bracket-same-line --write ....files
 1. let's create directory in your git account
 2. in terminal type
    $git init
