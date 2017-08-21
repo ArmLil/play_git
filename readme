@@ -44,3 +44,7 @@ this directory is to learn git
     cancel the rebase
 11. if we deleted some local files we can get back them
     $ git checkout -f HEAD
+12.  $ git log -S<WORD>
+
+Will give you all the commits which include that word
+
