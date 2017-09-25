@@ -45,6 +45,7 @@ this directory is to learn git
 11. if we deleted some local files we can get back them
     $ git checkout -f HEAD
 12.  $ git log -S<WORD>
+13. https://stackoverflow.com/questions/11266478/git-add-remote-branch
 
 Will give you all the commits which include that word
 
