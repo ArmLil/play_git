@@ -50,5 +50,6 @@ this directory is to learn git
 14. to push only to the branch
       git checkout branch_x
       git push origin branch_x
+      http://www.manikrathee.com/how-to-create-a-branch-in-git.html
    
 
