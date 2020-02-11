@@ -56,7 +56,13 @@ this directory is to learn git
    
 15.Squash commits into one with Git   https://www.internalpointers.com/post/squash-commits-into-one-git
 
-13. change git configs locally
+16. change git configs locally
 git config user.email "you@example.com"
 git config user.name "Your Name"
 git config user.password "your password"
+
+17. Create a branch in Git from another branch
+   
+   git checkout -b myFeature dev
+   
+   https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch
