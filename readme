@@ -66,3 +66,5 @@ git config user.password "your password"
    git checkout -b myFeature dev
    
    https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch
+ 
+18. delete remote and local branches https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely 
